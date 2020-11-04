@@ -7,7 +7,7 @@ namespace Feddorra\Store\Description;
 /**
  * Class Description
  *
- * @package Feddorra\Description
+ * @package Feddorra\Store\Description
  */
 class Description implements DescriptionInterface {
 
@@ -21,20 +21,23 @@ class Description implements DescriptionInterface {
      */
     private string $text;
 
+    /**
+     * Description constructor.
+     */
     public function __construct() {
         $this->id = null;
         $this->text = '';
     }
 
     /**
-     * @return int|null
+     * @inheritDoc
      */
     public function getId(): ?int {
         return $this->id;
     }
 
     /**
-     * @return string
+     * @inheritDoc
      */
     public function getText(): string {
         return $this->text;

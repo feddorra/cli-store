@@ -4,18 +4,41 @@
 namespace Feddorra\Store\Employee;
 
 
+/**
+ * Class Employee
+ *
+ * @package Feddorra\Store\Employee
+ */
 class Employee implements EmployeeInterface {
 
+    /**
+     * @var int|null
+     */
     private ?int $id;
 
+    /**
+     * @var string
+     */
     private string $name;
 
+    /**
+     * @var string
+     */
     private string $surname;
 
+    /**
+     * @var string
+     */
     private string $phoneNumber;
 
+    /**
+     * @var string
+     */
     private string $password;
 
+    /**
+     * Employee constructor.
+     */
     public function __construct() {
         $this->id = null;
         $this->name = '';

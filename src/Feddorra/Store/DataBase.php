@@ -9,7 +9,7 @@ use PDO;
 /**
  * Class DataBase
  *
- * @package Feddorra
+ * @package Feddorra\Store
  */
 class DataBase {
 

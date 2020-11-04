@@ -6,10 +6,11 @@ namespace Feddorra\Store\Employee;
 
 use Feddorra\Store\DataBase;
 
+
 /**
  * Class EmployeeRepository
  *
- * @package Feddorra\Employee
+ * @package Feddorra\Store\Employee
  */
 class EmployeeRepository {
 

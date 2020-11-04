@@ -4,10 +4,21 @@
 namespace Feddorra\Store\Customer;
 
 
+use PDOStatement;
 use Feddorra\Store\DataBase;
 
+
+/**
+ * Class CustomerRepository
+ *
+ * @package Feddorra\Store\Customer
+ */
 class CustomerRepository {
 
+    /**
+     * @param CustomerInterface $customer
+     * @return false|PDOStatement
+     */
     public function save(CustomerInterface $customer) {
         if($customer->getId()) {
             $sql = "
@@ -40,6 +51,10 @@ class CustomerRepository {
         return DataBase::getInstance()->query($sql);
     }
 
+    /**
+     * @param int|null $id
+     * @return array|Customer
+     */
     public function select(?int $id = null) {
         $sql = "
             SELECT id
@@ -79,6 +94,9 @@ class CustomerRepository {
         return $customer;
     }
 
+    /**
+     * @param CustomerInterface $customer
+     */
     public function delete(CustomerInterface $customer) {
         DataBase::getInstance()->query("
             DELETE FROM customer

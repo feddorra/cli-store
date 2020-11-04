@@ -6,10 +6,11 @@ namespace Feddorra\Store\Product;
 
 use Feddorra\Store\Description\DescriptionInterface;
 
+
 /**
  * Interface ProductInterface
  *
- * @package Feddorra\Product
+ * @package Feddorra\Store\Product
  */
 interface ProductInterface {
 

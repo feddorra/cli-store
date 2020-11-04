@@ -7,7 +7,7 @@ namespace Feddorra\Store\Description;
 /**
  * Interface DescriptionInterface
  *
- * @package Feddorra\Description
+ * @package Feddorra\Store\Description
  */
 interface DescriptionInterface {
 

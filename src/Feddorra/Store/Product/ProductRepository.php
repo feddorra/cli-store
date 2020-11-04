@@ -8,10 +8,11 @@ use PDOStatement;
 use Feddorra\Store\DataBase;
 use Feddorra\Store\Description\DescriptionRepository;
 
+
 /**
  * Class ProductRepository
  *
- * @package Feddorra\Product
+ * @package Feddorra\Store\Product
  */
 class ProductRepository {
 

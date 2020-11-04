@@ -7,10 +7,11 @@ namespace Feddorra\Store\Product;
 use Feddorra\Store\Description\Description;
 use Feddorra\Store\Description\DescriptionInterface;
 
+
 /**
  * Class Product
  *
- * @package Feddorra\Product
+ * @package Feddorra\Store\Product
  */
 class Product implements ProductInterface {
 
@@ -29,6 +30,9 @@ class Product implements ProductInterface {
      */
     private DescriptionInterface $description;
 
+    /**
+     * Product constructor.
+     */
     public function __construct() {
         $this->id = null;
         $this->name = '';
@@ -36,29 +40,28 @@ class Product implements ProductInterface {
     }
 
     /**
-     * @return int|null
+     * @inheritDoc
      */
     public function getId(): ?int {
         return $this->id;
     }
 
     /**
-     * @return string
+     * @inheritDoc
      */
     public function getName(): string {
         return $this->name;
     }
 
     /**
-     * @return DescriptionInterface
+     * @inheritDoc
      */
     public function getDescription(): DescriptionInterface {
         return $this->description;
     }
 
     /**
-     * @param int $id
-     * @return $this|ProductInterface
+     * @inheritDoc
      */
     public function setId(int $id): ProductInterface {
         $this->id = $id;
@@ -66,8 +69,7 @@ class Product implements ProductInterface {
     }
 
     /**
-     * @param string $name
-     * @return $this|ProductInterface
+     * @inheritDoc
      */
     public function setName(string $name): ProductInterface {
         $this->name = $name;
@@ -75,8 +77,7 @@ class Product implements ProductInterface {
     }
 
     /**
-     * @param DescriptionInterface $description
-     * @return $this|ProductInterface
+     * @inheritDoc
      */
     public function setDescription(DescriptionInterface $description): ProductInterface {
         $this->description = $description;

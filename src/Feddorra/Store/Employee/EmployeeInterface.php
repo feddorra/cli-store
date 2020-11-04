@@ -7,7 +7,7 @@ namespace Feddorra\Store\Employee;
 /**
  * Interface EmployeeInterface
  *
- * @package Feddorra\Employee
+ * @package Feddorra\Store\Employee
  */
 interface EmployeeInterface {
 

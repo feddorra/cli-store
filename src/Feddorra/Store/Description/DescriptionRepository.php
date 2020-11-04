@@ -7,10 +7,11 @@ namespace Feddorra\Store\Description;
 use PDOStatement;
 use Feddorra\Store\DataBase;
 
+
 /**
  * Class DescriptionRepository
  *
- * @package Feddorra\Description
+ * @package Feddorra\Store\Description
  */
 class DescriptionRepository {
 

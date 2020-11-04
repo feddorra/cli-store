@@ -7,7 +7,7 @@ namespace Feddorra\Store\Customer;
 /**
  * Class Customer
  *
- * @package Feddorra\Customer
+ * @package Feddorra\Store\Customer
  */
 class Customer implements CustomerInterface {
 
