@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Feddorra\Description;
+namespace Feddorra\Store\Description;
 
 
 /**

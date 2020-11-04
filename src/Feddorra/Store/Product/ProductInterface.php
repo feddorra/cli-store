@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Feddorra\Product;
+namespace Feddorra\Store\Product;
 
 
-use Feddorra\Description\DescriptionInterface;
+use Feddorra\Store\Description\DescriptionInterface;
 
 /**
  * Interface ProductInterface

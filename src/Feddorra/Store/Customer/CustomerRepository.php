@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Feddorra\Customer;
+namespace Feddorra\Store\Customer;
 
 
-use Feddorra\DataBase;
+use Feddorra\Store\DataBase;
 
 class CustomerRepository {
 

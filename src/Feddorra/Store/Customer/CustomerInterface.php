@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Feddorra\Customer;
+namespace Feddorra\Store\Customer;
 
 
 /**

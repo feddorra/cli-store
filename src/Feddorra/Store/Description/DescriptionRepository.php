@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Feddorra\Description;
+namespace Feddorra\Store\Description;
 
 
 use PDOStatement;
-use Feddorra\DataBase;
+use Feddorra\Store\DataBase;
 
 /**
  * Class DescriptionRepository

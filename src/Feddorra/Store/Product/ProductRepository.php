@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Feddorra\Product;
+namespace Feddorra\Store\Product;
 
 
 use PDOStatement;
-use Feddorra\DataBase;
-use Feddorra\Description\DescriptionRepository;
+use Feddorra\Store\DataBase;
+use Feddorra\Store\Description\DescriptionRepository;
 
 /**
  * Class ProductRepository

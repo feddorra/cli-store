@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Feddorra\Employee;
+namespace Feddorra\Store\Employee;
 
 
-use Feddorra\DataBase;
+use Feddorra\Store\DataBase;
 
 /**
  * Class EmployeeRepository

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Feddorra\Employee;
+namespace Feddorra\Store\Employee;
 
 
 /**

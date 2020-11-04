@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Feddorra;
+namespace Feddorra\Store;
 
 
 use PDO;
@@ -39,12 +39,15 @@ class DataBase {
     }
 
     /**
-     *
+     * Initialize database
+     * Create tables if its doesn't exist
      */
     private static function init() {
         $queries = [
             "CREATE TABLE IF NOT EXISTS description (id INTEGER PRIMARY KEY, text TEXT NOT NULL);",
             "CREATE TABLE IF NOT EXISTS product (id INTEGER PRIMARY KEY, name TEXT NOT NULL, description_id INTEGER);",
+            "CREATE TABLE IF NOT EXISTS employee (id INTEGER PRIMARY KEY, name TEXT NOT NULL, surname TEXT NOT NULL, phone TEXT NOT NULL, password TEXT NOT NULL)",
+            "CREATE TABLE IF NOT EXISTS customer (id INTEGER PRIMARY KEY, name TEXT NOT NULL, surname TEXT NOT NULL, phone TEXT NOT NULL, address TEXT NOT NULL, date_of_birth TEXT NOT NULL)",
         ];
 
         foreach ($queries as $query) {
