@@ -16,7 +16,7 @@ class DataBase {
     /**
      *
      */
-    const PATH_TO_DATABASE = __DIR__ . "/../../temp/store.db";
+    const PATH_TO_DATABASE = __DIR__ . "/../../../temp/store.db";
 
     /**
      * @var PDO|null
