@@ -131,7 +131,7 @@ class Customer implements CustomerInterface {
      * @inheritDoc
      */
     public function setAddress(string $address): CustomerInterface {
-        $this->address;
+        $this->address = $address;
         return $this;
     }
 
